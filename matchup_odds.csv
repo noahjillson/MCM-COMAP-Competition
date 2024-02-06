@@ -1,37 +1,3 @@
-<<<<<<< HEAD
-match_id,player1,player2,player1_prematch,player2_prematch
-2023-wimbledon-1301,Carlos Alcaraz,Nicolas Jarry,92.34,7.66
-2023-wimbledon-1315,Lorenzo Musetti,Hubert Hurkacz,61.98,38.02
-2023-wimbledon-1309,Jannik Sinner,Quentin Halys,87.56,12.44
-2023-wimbledon-1314,Alexander Bublik,Maximilian Marterer,87.56,12.44
-2023-wimbledon-1310,Daniel Elahi Galan,Mikael Ymer,28.57,71.43
-2023-wimbledon-1312,Denis Shapovalov,Liam Broady,76.91,23.09
-2023-wimbledon-1311,Guido Pella,Roman Safiullin,30.77,69.23
-2023-wimbledon-1313,Andrey Rublev,David Goffin,83.33,16.67
-2023-wimbledon-1316,Stan Wawrinka,Novak Djokovic,3.85,96.15
-2023-wimbledon-1306,Jiri Lehecka,Tommy Paul,44.44,55.56
-2023-wimbledon-1701,Carlos Alcaraz,Novak Djokovic,37.74,63.64
-2023-wimbledon-1307,Christopher Eubanks,Christopher O'Connell,65.28,34.72
-2023-wimbledon-1305,Daniil Medvedev,Marton Fucsovics,81.82,18.18
-2023-wimbledon-1304,Alejandro Davidovich Fokina,Holger Rune,28.57,71.43
-2023-wimbledon-1308,Laslo Djere,Stefanos Tsitsipas,16.67,83.33
-2023-wimbledon-1303,Frances Tiafoe,Grigor Dimitrov,55.56,44.44
-2023-wimbledon-1302,Alexander Zverev,Matteo Berrettini,55.56,44.44
-2023-wimbledon-1407,Andrey Rublev,Alexander Bublik,55.56,44.44
-2023-wimbledon-1406,Roman Safiullin,Denis Shapovalov,37.74,63.64
-2023-wimbledon-1405,Jannik Sinner,Daniel Elahi Galan,96.15,3.85
-2023-wimbledon-1408,Hubert Hurkacz,Novak Djokovic,4.76,95.24
-2023-wimbledon-1403,Daniil Medvedev,Jiri Lehecka,80.00,20.00
-2023-wimbledon-1404,Christopher Eubanks,Stefanos Tsitsipas,26.67,73.33
-2023-wimbledon-1402,Grigor Dimitrov,Holger Rune,63.64,36.36
-2023-wimbledon-1401,Carlos Alcaraz,Matteo Berrettini,71.43,28.57
-2023-wimbledon-1503,Jannik Sinner,Roman Safiullin,87.56,12.44
-2023-wimbledon-1504,Andrey Rublev,Novak Djokovic,6.63,93.37
-2023-wimbledon-1502,Daniil Medvedev,Christopher Eubanks,85.75,14.25
-2023-wimbledon-1501,Carlos Alcaraz,Holger Rune,80.00,20.00
-2023-wimbledon-1602,Jannik Sinner,Novak Djokovic,16.67,83.33
-2023-wimbledon-1601,Carlos Alcaraz,Daniil Medvedev,73.33,26.67
-=======
 match_id,player1,player2,player1_prematch,player2_prematch,p0,q0
 2023-wimbledon-1301,Carlos Alcaraz,Nicolas Jarry,92.34,7.66,0.6650546,0.5849454
 2023-wimbledon-1315,Lorenzo Musetti,Hubert Hurkacz,61.98,38.02,0.6349362,0.6150638
@@ -64,4 +30,3 @@ match_id,player1,player2,player1_prematch,player2_prematch,p0,q0
 2023-wimbledon-1501,Carlos Alcaraz,Holger Rune,80,20,0.6549645,0.5950355
 2023-wimbledon-1602,Jannik Sinner,Novak Djokovic,16.67,83.33,0.5949655,0.6550345
 2023-wimbledon-1601,Carlos Alcaraz,Daniil Medvedev,73.33,26.67,0.6449162,0.6050838
->>>>>>> ethan
