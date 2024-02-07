@@ -74,6 +74,9 @@ $$
 f_{ij} = (f_i - f_{avg}) - (g_j - g_{avg})
 \end{equation}
 $$
+
+And
+
 $$
 \begin{equation}
 g_{ji} = (g_j - g_{avg}) - (f_i - f_{avg})
@@ -95,6 +98,16 @@ $$
 \Theta(S_m) = \frac{n_0}{n_0+m}
 $$
 
+#### Match Win Probability
+Using combinitorics and a program described in Kovalchik and Reid, we can calculate the match win probability at each point in the match. We can then simulate the win or loss of the next point to calculate leverage and momentum.
+
+#### Rally Win Dynamic Update Results
+---
+![Alcaraz Vs Djokovic Rally Win](figures/AvD_prob.png "Alcaraz Vs Djokovic Momentum")
+---
+![Alcaraz Vs Medvedev Rally Win](figures/AvM_prob.png "Alcaraz Vs Medvedev Momentum")
+---
+![Sinner Vs Djokovic Rally Win](figures/SvD_prob.png "Sinner Vs Djokovic Momentum")
 
 ## References
 [1]: Brooks Hays. ’Momentum’ in sports is malarkey, researchers say. Feb. 2014. url: https://www.upi.com/Science_News/2014/02/18/Momentum-in-sports-is-malarkey-researchers-say/9351392739888/
