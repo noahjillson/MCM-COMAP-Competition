@@ -99,7 +99,7 @@ $$
 $$
 
 #### Match Win Probability
-Using combinitorics and a program described in Kovalchik and Reid, we can calculate the match win probability at each point in the match. We can then simulate the win or loss of the next point to calculate leverage and momentum.
+Using combinitorics and a program described in Kovalchik and Reid [7], we can calculate the match win probability at each point in the match. We can then simulate the win or loss of the next point to calculate leverage and momentum.
 
 #### Rally Win Dynamic Update Results
 ---
