@@ -80,9 +80,7 @@ $$
 #### Rally Win Probability Dynamic Update Model
 With a prediction of rally win probabilities for a matchup between player $i$ and $j$, Kovalchik and Reid define a dynamic update model[7]. This dynamic model weighs the pre-match predicted probability a player wins a rally on serve against their actual performance in match. The model is given by by
 
-$$
-\hat{p}_{ij}(S_m) = \Theta(S_m)\pi_{ij} + (1-\Theta(S_m))\overline{p}_{ij}(S_m)
-$$
+$$\hat{p}_{ij}(S_m) = \Theta(S_m)\pi_{ij} + (1-\Theta(S_m))\overline{p}_{ij}(S_m)$$
 
 where theta is given by
 
