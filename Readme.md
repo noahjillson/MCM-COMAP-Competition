@@ -57,39 +57,31 @@ To calculate these probabilities, equtions defined in a paper by Barnett and Cla
 | $e_i$ | Percentage of points won on return of second serve for player $i$ |
 
 Then we define $f_i$ to be the rally win probability of player $i$ while serving and $g_i$ to be the rally win probability of player $i$ while receiving.
+
 $$
-\begin{equation}
 f_i = a_i b_i + (1 - a_i) c_i
-\end{equation}
 $$
+
 $$
-\begin{equation}
 g_i = a_{avg} d_i + (1 - a_{avg}) e_i
-\end{equation}
 $$
 With these proabilities for each player, we can predict the rally win probabilities for a matchup between player $i$ and $j$ [6].
 
 $$
-\begin{equation}
 f_{ij} = (f_i - f_{avg}) - (g_j - g_{avg})
-\end{equation}
 $$
 
 And
 
 $$
-\begin{equation}
 g_{ji} = (g_j - g_{avg}) - (f_i - f_{avg})
-\end{equation}
 $$
 
 #### Rally Win Probability Dynamic Update Model
 With a prediction of rally win probabilities for a matchup between player $i$ and $j$, Kovalchik and Reid define a dynamic update model[7]. This dynamic model weighs the pre-match predicted probability a player wins a rally on serve against their actual performance in match. The model is given by by
 
 $$
-\begin{equation}
 \hat{p}_{ij}(S_m) = \Theta(S_m)\pi_{ij} + (1-\Theta(S_m))\overline{p}_{ij}(S_m)
-\end{equation}
 $$
 
 where theta is given by
